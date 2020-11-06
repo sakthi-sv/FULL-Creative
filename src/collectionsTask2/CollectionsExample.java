@@ -36,6 +36,7 @@ public class CollectionsExample {
 		m1.put(1,"HashMap");
 		m1.put(3,"LinkedHashMap");
 		m1.put(2,"TreeMap");
+		System.out.println(m1);
 		for(Map.Entry m:m1.entrySet())
 			System.out.println(m.getKey()+" "+m.getValue());
 	}
